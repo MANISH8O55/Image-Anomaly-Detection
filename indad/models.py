@@ -9,6 +9,11 @@ from torch import Tensor
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
+
+from .spade import SPADE
+from .padim import PaDiM
+from .patchcore import PatchCore
+
 from indad.utils import (
     GaussianBlur,
     NativeGaussianBlur,
