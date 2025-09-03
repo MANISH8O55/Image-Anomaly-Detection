@@ -10,3 +10,4 @@ Pillow
 opencv-python
 wget==3.2
 loguru==0.7.3
+onnxruntime==1.18.0
